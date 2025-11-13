@@ -1,16 +1,49 @@
-# React + Vite
+# CareerTrackr — Internship & Job Application Manager  
+A full-stack React + Vite application to manage internship/job applications with real-time CRUD operations, filters, search, sorting, and dark/light mode.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Features
+- Add, edit, delete applications  
+- Search by company/role  
+- Filter by status (Applied, Interview, Offer, Rejected)  
+- Sort by deadline, company, newest  
+- Dark/Light theme toggle  
+- Demo Mode (auto-fill sample applications)  
+- Beautiful animations (Framer Motion)  
+- Toast notifications  
+- JSON Server backend (CRUD API)
 
-Currently, two official plugins are available:
+## 🛠 Tech Stack
+- **Frontend:** React + Vite + TailwindCSS  
+- **Backend:** JSON Server (REST API)  
+- **State Management:** React Hooks  
+- **Animations:** Framer Motion  
+- **Forms:** React Hook Form + Yup  
+- **Notifications:** React Hot Toast  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Install  
+```bash
+npm install
+```
 
-## React Compiler
+▶ Run Project
+Start frontend + backend together:
+```bash
+npm run dev
+```
+Frontend: http://localhost:5173
+Backend API: http://localhost:5000/jobs
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🗂 Folder Structure
+careertrackr/
+ ├─ src/
+ │   ├─ components/
+ │   ├─ pages/
+ │   ├─ utils/
+ │   └─ App.jsx
+ ├─ public/
+ ├─ db.json
+ └─ package.json
+ 
+👤 Author
+Abhay — MCA, MIT Manipal
+Frontend Developer | React | JavaScript
