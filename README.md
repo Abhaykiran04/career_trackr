@@ -34,6 +34,7 @@ Frontend: http://localhost:5173
 Backend API: http://localhost:5000/jobs
 
 🗂 Folder Structure
+```plaintext
 careertrackr/
  ├─ src/
  │   ├─ components/
@@ -43,6 +44,7 @@ careertrackr/
  ├─ public/
  ├─ db.json
  └─ package.json
+```
  
 👤 Author
 Abhay — MCA, MIT Manipal
